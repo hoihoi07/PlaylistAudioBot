@@ -44,7 +44,7 @@ class Config(object):
     RESTART_COMMAND = [os.environ.get('RESTART_COMMAND','restart')]
     STATUS_COMMAND = [os.environ.get('STATUS_COMMAND','status')]
     SHELL_COMMAND = [os.environ.get('SHELL_COMMAND','shell')]
-    FLAME_URL = os.environ.get('FLAME_URL','https://github.com/HuzunluArtemis/PlaylistAudioBot')
+    FLAME_URL = os.environ.get('FLAME_URL','https://t.me/jettastic')
     PING_COMMAND = [os.environ.get('PING_COMMAND','ping')]
     YTDL_DOWNLOAD_FORMAT = os.environ.get('YTDL_DOWNLOAD_FORMAT', 'bestaudio[ext=m4a] / bestaudio')
     botStartTime = time.time() # dont touch
